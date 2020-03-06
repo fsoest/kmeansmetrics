@@ -10,7 +10,7 @@ from sklearn.cluster import KMeans as skKMeans
 # %%
 
 # data = pd.read_csv('s1.csv', sep=',')
-data = pd.read_csv(r'/home/felixsoest/Documents/studium/ml/ml/solo/birch3.csv', sep='\t')
+data = pd.read_csv('birch3.csv', sep='\t')
 # %%
 scaler = MinMaxScaler()
 data_scaled = pd.DataFrame(scaler.fit_transform(data))
